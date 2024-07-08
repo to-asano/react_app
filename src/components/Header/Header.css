@@ -1,0 +1,50 @@
+header {
+    background-color: grey;
+    color: white;
+    padding: 5px 20px;
+}
+
+ul {
+    width: fit-content;
+    padding: 0;
+    margin: 10px auto;
+}
+
+li {
+    color: white;
+    font-size: 32px;
+    margin: 5px 10px 0;
+    display: inline-block;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+p {
+    font-size: 24px;
+    text-align: center;
+    margin: 10px;
+}
+
+.addTodos label,
+.login label {
+    font-size: 24px;
+    display: block;
+}
+
+.addTodos button,
+.login button {
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    border: solid 1px #888;
+}
+
+.btn-login {
+    background: none;
+    font-size: 32px;
+    color: white;
+    border: none;
+}

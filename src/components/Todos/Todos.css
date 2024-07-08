@@ -1,0 +1,33 @@
+.todos {
+    width: 690px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.todo {
+    background-color: #efefef;
+    width: 200px;
+    height: fit-content;
+    overflow-wrap: break-word;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.title {
+    font-size: 28px;
+    margin: 0;
+}
+
+.date {
+    text-align: left;
+    font-size: 14px;
+    border-bottom: solid 1px #888;
+    margin: 0;
+}
+
+.content {
+    font-size: 24px;
+    text-align: left;
+    margin: 0;
+}

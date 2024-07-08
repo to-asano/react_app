@@ -1,0 +1,14 @@
+.sidebar ul {
+    height: 200px;
+    overflow: scroll;
+}
+
+.sidebar li {
+    font-size: 24px;
+    color: black !important;
+    display: block;
+}
+
+.sidebar li:hover {
+    opacity: 0.5;
+}

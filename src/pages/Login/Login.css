@@ -1,0 +1,14 @@
+.login {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.err-field p {
+    font-size: 16px;
+    color: red;
+    text-align: left;
+}
+
+.form-field {
+    margin: 10px 0;
+}
