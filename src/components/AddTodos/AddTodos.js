@@ -55,9 +55,9 @@ const AddTodos = ({ setIsActice }) => {
 
     const validateInputs = () => {
         const newErrs = {};
-        if (date.trim() === '') newErrs.date = 'Date is required';
-        if (title.trim() === '') newErrs.title = 'Title is required';
-        if (content.trim() === '') newErrs.content = 'Content is required';
+        if (date.trim() === '') newErrs.date = 'Date を入力してください';
+        if (title.trim() === '') newErrs.title = 'Title を入力してください';
+        if (content.trim() === '') newErrs.content = 'Content を入力してください';
         setErrs(newErrs);
         return Object.keys(newErrs).length === 0;
     }
@@ -72,7 +72,7 @@ const AddTodos = ({ setIsActice }) => {
                     value={date}
                     onChange={handleDateChange}
                 />
-                {errs.date && <p className="error">{errs.date}</p>}
+                {errs.date && <p className="error" data-testid="date-error">{errs.date}</p>}
             </div>
             <div className="form-field">
                 <label htmlFor="title">Title</label>
